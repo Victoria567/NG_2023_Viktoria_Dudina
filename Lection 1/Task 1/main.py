@@ -1,4 +1,4 @@
-name = imput("Виктория")
-surname = imput("Дудина")
+name = input("Виктория")
+surname = input("Дудина")
 
-print("Виктория Дудина: {name} {surname}")
+print(name, "Виктория", surname,"Дудина")
