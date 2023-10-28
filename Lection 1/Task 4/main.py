@@ -1,38 +1,38 @@
 import math
 
-operation = input ("Введите + для слодения, - для вычитания, * для умножения, / для диления, ^ для возвидения в степень, k для извлечеления корня: ")
+operation = input ("Enter + for addition, - for subtraction, * for multiplication, / for division, ^ for exponentiation, k for root extraction: ")
 
-num1 = float(input("Число: 1"))
-num2 = float(input("Число: 2"))
+num1 = float(input("Number: 1"))
+num2 = float(input("Number: 2"))
 
 if operation == "+":
     result = num1 + num2
-    print(f"Сума чисел: {result}")
+    print(f"The sum of numbers: {result}")
 
 elif operation == "-":
     result = num1 - num2
-    print(f"Разница чисел: {result}")
+    print(f"The difference of numbers: {result}")
 
 elif operation == "*":
     result = num1 * num2
-    print(f"Произведение чисел: {result}")
+    print(f"The product of numbers: {result}")
 
 elif operation == "/":
     if num2 != 0:
         result = num1 / num2
-        print(f"Частное чисел: {result}")
+        print(f"The quotient of numbers: {result}")
     else:
-        print("Ошибка. На 0 делить запрещено.")
+        print("Error. Division by 0 is forbidden.")
 
 elif operation == "^":
     result = math.pow(num1, num2)
-    print(f"{num1} в степени {num2}: {result}")
+    print(f"{num1} to the power {num2}: {result}")
 
 elif operation == "k":
     if num1 >= 0:
         result = math.pow(num1, 1/num2)
-        print("Корень {num2}-й степени {num1}: {resultat}")
+        print("The root of a number {num2} to the power {num1}: {resultat}")
 
 
 else:
-    print("Неверный выбор. Выберете: +, -, *, /, ^, k")
+    print("Wrong choice. Choose: +, -, *, /, ^, k")
