@@ -1,14 +1,14 @@
-choice = input("1 - Цельсия в Фарингейти. 2 - если из Фарингейта в Цельсий")
+choice = input("1 - Celsius to Fahrenheit. 2 - if from Fahrenheit to Celsius")
 
 if choice == "1":
-    celsius = float(input("Температура в Цельсиях "))
+    celsius = float(input("Temperature in Celsius"))
     fahrenheit = celsius * 9/5 + 32
-    print(f"Температура в градусах Фарингейта: {fahrenheit: .2f}" )
+    print(f"Temperature in degrees Fahrenheit: {fahrenheit: .2f}")
 
 elif choice == "2":
-    fahrenheit = float(input("Температура в Фарингейтах"))
+    fahrenheit = float(input("Temperature in Fahrenheit"))
     celsius = (fahrenheit - 32) * 9/5
-    print(f"Температура в градусах Цельсия: {celsius: 2f}")
+    print(f"Temperature in degrees Celsius: {celsius: 2f}")
 
 else:
-    print ("Ошибка. Введите 1 или 2")
+    print ("Error. Enter 1 or 2")
