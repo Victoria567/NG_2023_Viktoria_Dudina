@@ -1,3 +1,3 @@
-print ("Введите 2 числа через пробел")
+print ("Enter 2 numbers separated by a space")
 numbers = input()
-print ("Вы ввели:", numbers)
+print ("You entered:", numbers)
