@@ -1,4 +1,4 @@
-name = input("Viktoria")
-surname = input("Dudina")
+name = input("Введите имя: ")
+surname = input("Введите фамилию: ")
 
-print(name, "Viktoria", surname,"Dudina")
+print(name, surname)
